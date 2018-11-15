@@ -4,17 +4,12 @@ var array1 = [123, "string", true, {value: 321}, null],
     result = [];
 
 
-var result = array1;
-       for (var i = 0; i < array1.length; i++) {
-          result[i] = array1[i];
-       }
-          console.log("result: ", result);
 
-var result;
-result = array2;
-      for (var i = 0; i < array2.length; i++) {
-          result[i] = array2[i];
-
-
-      }
+for ( var i = 0; i < array1.length; i++) {
+    result[i] = array1[i];
+}
+for (var i = array1.length; i < array1.length +
+array2.length; i++) {
+    result[i] = array2[i - array1.length];
+}
            console.log("result: ", result);
