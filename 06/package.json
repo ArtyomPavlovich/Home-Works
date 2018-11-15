@@ -2,7 +2,7 @@
   "name": "06",
   "version": "1.0.0",
   "scripts": {
-    "start": "browser-sync start -s -f ./"
+    "06": "browser-sync start -s -f ./"
   },
   "devDependencies": {
     "browser-sync": "^2.26.3"

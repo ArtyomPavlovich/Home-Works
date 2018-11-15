@@ -1,20 +1,20 @@
 // mass
-var array1 = [123, "string", true, {value: 321}, null];
-var array2 = ["first", "second", "last"];
-result = [];
+var array1 = [123, "string", true, {value: 321}, null],
+    array2 = ["first", "second", "last"],
+    result = [];
 
 
-var  result=array1;
-for (array1 = 0; array1 < 1 ; array1++) {
-    console.log("result: ", result);
+var result = array1;
+       for (var i = 0; i < array1.length; i++) {
+          result[i] = array1[i];
+       }
+          console.log("result: ", result);
 
-}
-
-
-
-var result=array2;
-for (array2 = 0; array2 < 1; array2++ ) {
-    console.log("result: ", result);
-}
+var result;
+result = array2;
+      for (var i = 0; i < array2.length; i++) {
+          result[i] = array2[i];
 
 
+      }
+           console.log("result: ", result);
