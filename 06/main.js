@@ -4,17 +4,17 @@ var array2 = ["first", "second", "last"];
 result = [];
 
 
-var result=array1;
-for (i = 0; i < 5 ; i++) {
-    alert(array1[i])
+var  result=array1;
+for (array1 = 0; array1 < 1 ; array1++) {
+    console.log("result: ", result);
 
 }
-console.log("result: ", result);
+
 
 
 var result=array2;
-for (a = 0; a < 5; a++ ) {
-    alert(array2[a])
+for (array2 = 0; array2 < 1; array2++ ) {
+    console.log("result: ", result);
 }
 
-console.log("result: ", result);
+
