@@ -1,8 +1,8 @@
 {
-  "name": "06",
+  "name": "08",
   "version": "1.0.0",
   "scripts": {
-    "06": "browser-sync start -s -f ./"
+    "start": "browser-sync start -s -f ./"
   },
   "devDependencies": {
     "browser-sync": "^2.26.3"
