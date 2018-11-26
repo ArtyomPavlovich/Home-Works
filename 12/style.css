@@ -1,0 +1,49 @@
+html, body, .container {
+    height: 100%;
+}
+
+.navbar-default {
+    display: flex;
+    height: 100px;
+
+    background-color: #a68a8a;
+}
+
+.footer {
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #f68f8f;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #62dbca;
+}
+
+.col-3 {
+    display: grid;
+    height: 550px;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.nav-item {
+    padding: 5px;
+
+}
+a {
+    color: black;
+}
+
