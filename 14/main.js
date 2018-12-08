@@ -6,11 +6,12 @@ console.log('result1:', result1);
 console.log('result2:', result2);
 function getReversArray(array) {
     var result = [];
-    for (var i = array1.length -1; i >= 0; i--) {
-        result.push(array1[i]);
+    var a = 0;
+
+    for(var x = array.length-1; x >= 0; x--){
+        result[a] = array[x];
+        a++;
     }
-    for (var i = array2.length-1; i >= 0; i--) {
-        result.push(array2[i]);
-    }
+
     return result;
 }
