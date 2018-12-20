@@ -8,9 +8,9 @@
 .grid-img {
     background: #A81734;
     display: grid;
-    justify-content: center;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 20px;
+    justify-content: center;
     padding-left: 20px;
     padding-top: 20px;
 
@@ -24,5 +24,6 @@
 }
 
 .grid-th {
-    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }

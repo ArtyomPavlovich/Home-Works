@@ -54,11 +54,16 @@
     font-family: "PH 600 Caps", serif;
 }
 
-.map-s {
-
-    padding-top: 100px;
+.map {
+    width: 70%;
+    height: 800px;
 }
 
+.item_1  {
+    padding-left: 50px;
+}
 
+.item_4 {
+    background-size: cover;
 
-
+}
