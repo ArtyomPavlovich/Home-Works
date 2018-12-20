@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="stylesheet" type="text/css" href="./footer.css">
     <link rel="stylesheet" type="text/css" href="./comtent-w.css">
+    <link rel="stylesheet" type="text/css" href="./AutoSlidershow.css">
     <title>Vino W</title>
 </head>
 <body>
@@ -59,10 +60,25 @@
            <p>звонишь, сообщаешь о том, что хочешь заказать винное трио ,
                и мы доставляем тебе 3 бутылки
                на выбор винодела </p>
-           <img src="ing/com_4.png" alt="" style="width: 100%">
-           <button class="button"><a class="lol" href="menu.html"> В нашей краме широкая винная карта</a></button>
-       </div>
+           <div class="slideshow-container">
 
+               <div class="mySlides fade">
+                   <img src="ing/com_4.png" alt="" style="width:100%">
+               </div>
+
+               <div class="mySlides fade">
+                   <img src="ing/com_5.png" alt="" style="width:100%">
+               </div>
+
+               <div style="text-align:center">
+                   <span class="dot"></span>
+                   <span class="dot"></span>
+               </div>
+
+
+               <button class="button"><a class="lol" href="menu.html"> В нашей краме широкая винная карта</a></button>
+           </div>
+       </div>
    </div>
 
 
@@ -88,9 +104,9 @@
 
 
 
-
+       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYzXj5wF4L6mChyyc5xwfb2QT1QEZ9VN8&callback=initMap" async defer></script>
 <script type="text/javascript" src="googleMap.js"></script>
-   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYzXj5wF4L6mChyyc5xwfb2QT1QEZ9VN8&callback=initMap"
-           async defer></script>
+
+       <script type="text/javascript" src="AutoSlidershow.js"></script>
 </body>
 </html>
