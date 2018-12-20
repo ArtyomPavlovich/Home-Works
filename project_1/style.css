@@ -44,3 +44,30 @@
 }
 
 
+/* header large */
+header.large {
+    height: 120px;
+}
+header.large img {
+    margin-top: 30px;
+}
+
+
+/* header small */
+
+header.small {
+    height: 50px;
+}
+header.small img {
+}
+
+/* Transitions */
+
+header,
+a,
+img {
+    transition: .7s all;
+    -moz-transition: .7s all;
+    -webkit-transition: .7s all;
+    -o-transition: .7s all;
+}
